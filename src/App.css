@@ -1,0 +1,53 @@
+body{
+
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    margin-bottom: .5rem;
+   
+}
+
+.iput{
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    margin-bottom: .5rem;
+}
+
+select{
+    /* width: 100%;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    margin-bottom: .5rem; */
+    margin-left: .5rem;
+}
+
+.equals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+
+
+    font-weight: bold;
+    font-size: 1.5em;
+}
