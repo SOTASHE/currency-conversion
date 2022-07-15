@@ -61,7 +61,18 @@ function App() {
 
       }
     );
-      }, []);
+  }, []);
+  
+  useEffect(() => {
+    if (fromCurrency!=null && toCurrency!=null) {
+      fetch(requestURL)
+        .then((response) => response.json())
+        .then((data) => {
+          setExchangeRate(data.rates[toCurrency]);
+        });
+    }
+  }
+  , [fromCurrency, toCurrency]);
     
     
     
